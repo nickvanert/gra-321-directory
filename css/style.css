@@ -31,6 +31,6 @@ ul{
 a {
   color: #A8A194;
 }
-a:hover{
-  Background-color: yellow
+a:hover, a:active, a:focus {
+  color: #FCBB6D
 }

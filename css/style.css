@@ -1,7 +1,31 @@
-* {
-background-color: orange;
+\* {
+background-color: #223745;
+
 }
 
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 2% 0% 0% 2%;
+  font-size: 400%;
+  color: #E4C9B4
+
+
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+  margin: .5% 0% 2% 3% ;
+  font-size: 150%;
+  color: #95A8AC
+}
+
+ul{
+  font-family: 'Roboto', sans-serif;
+  margin: 2% 0% 2% 5% ;
+  font-size: 125%;
+
+}
+a {
+  color: #A8A194;
 }

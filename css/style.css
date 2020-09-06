@@ -8,7 +8,7 @@ background-color: #223745;
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  margin: 2% 0% 0% 20%;
+  margin: 2% 0% 0% 5%;
   font-size: 425%;
   color: #E4C9B4;
 }
@@ -24,6 +24,7 @@ ul{
   font-family: 'Roboto', sans-serif;
   margin: 2% 0% 2% 6.5% ;
   font-size: 125%;
+  line-height: 150%;
 
 }
 

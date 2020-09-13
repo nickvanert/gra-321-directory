@@ -1,31 +1,40 @@
 *
 body {
 background-color: #E4C9B4;
-
 }
 
-button:hover, button:active,
-  button:focus {
- background-color: black
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
 
-h1 {
+.darkbluetitle{
   font-family: 'Montserrat', sans-serif;
   margin: 2% 0% 0% 5%;
-  font-size: 425%;
+  font-size: 300%;
   color:  #223745;
 }
 
-h2{
+.darkbluetitlesmaller{
+  font-family: 'Montserrat', sans-serif;
+  margin: 2% 0% 0% 5%;
+  font-size: 200%;
+  color:  #223745;
+}
+
+.greentitle{
     font-family: 'Roboto', sans-serif;
     margin: 1% 0% 2% 6% ;
-    font-size: 150%;
+    font-size: 125%;
     color: #2e856e
 }
 
-ul{
+.greentitlesmaller{
+    font-family: 'Roboto', sans-serif;
+    margin: 1% 0% 2% 6% ;
+    font-size: 125%;
+    color: #2e856e
+}
+
+.list{
   font-family: 'Roboto', sans-serif;
   margin: 2% 0% 2% 6.5% ;
   font-size: 125%;
@@ -33,10 +42,11 @@ ul{
 
 }
 
-a {
+.darkbluetext {
   color: #05668d
 }
-a:hover, a:active, a:focus {
+
+.orangehover:hover, a:active, a:focus {
   color: #EA3C53
 }
 
@@ -48,5 +58,15 @@ button{
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   padding: 10px 10px 10px 10px;
-  margin: 50px 200px 0px
+  margin: 20px -25px 10px 100px
+}
+
+.button1:hover, button1:active,
+  button1:focus {
+ background-color: black
+}
+
+button2:active,
+  button2:focus {
+ background-color: #14A171;
 }

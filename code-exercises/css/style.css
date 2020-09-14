@@ -28,7 +28,7 @@ button2:active,
 }
 
 .container {
-  background-color: red;
+  background-color: blue;
   backgroundimage: url (https://github.com/nickvanert/gra-321-directory/blob/master/code-exercises/img/racoon.jpg)
   background-size: cover;
   height: 700px;

@@ -6,12 +6,54 @@ background-color: #E4C9B4;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
 
+button{
+  background-color:#14A171;
+  border: none;
+  color: white;
+  font-size: 105%;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  padding: 10px 10px 10px 10px;
+  margin: 20px -25px 10px 100px;
+}
+
+.button1:hover, button1:active,
+  button1:focus {
+ background-color: black;
+}
+
+button2:active,
+  button2:focus {
+ background-color: #14A171;
+}
+
+.container {
+  background-color: red;
+  background-size: cover;
+  height: 700px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.darkbluetext {
+  color: #05668d;
+}
+
+
 .darkbluetitle{
   font-family: 'Montserrat', sans-serif;
   margin: 2% 0% 0% 5%;
   font-size: 300%;
   color:  #223745;
 }
+
+.darkbluetitleimage{
+  font-family: 'Montserrat', sans-serif;
+  margin: 2% 0% 0% 5%;
+  font-size: 200%;
+  color:  #223745;
+}
+
 
 .darkbluetitlesmaller{
   font-family: 'Montserrat', sans-serif;
@@ -20,18 +62,27 @@ background-color: #E4C9B4;
   color:  #223745;
 }
 
-.greentitle{
+ .greentitle{
     font-family: 'Roboto', sans-serif;
     margin: 1% 0% 2% 6% ;
     font-size: 125%;
-    color: #2e856e
+    color: #2e856e;
 }
+
+
+.greentitleimage{
+    font-family: 'Roboto', sans-serif;
+    margin: 1% 0% 2% 6% ;
+    font-size: 125%;
+    color: #2e856e;
+}
+
 
 .greentitlesmaller{
     font-family: 'Roboto', sans-serif;
     margin: 1% 0% 2% 6% ;
     font-size: 125%;
-    color: #2e856e
+    color: #2e856e;
 }
 
 .list{
@@ -42,31 +93,18 @@ background-color: #E4C9B4;
 
 }
 
-.darkbluetext {
-  color: #05668d
-}
 
 .orangehover:hover, a:active, a:focus {
-  color: #EA3C53
+  color: #EA3C53;
 }
 
-button{
-  background-color:#14A171;
-  border: none;
-  color: white;
-  font-size: 105%;
-  font-family: Roboto, sans-serif;
-  text-transform: uppercase;
-  padding: 10px 10px 10px 10px;
-  margin: 20px -25px 10px 100px
-}
 
-.button1:hover, button1:active,
-  button1:focus {
- background-color: black
-}
-
-button2:active,
-  button2:focus {
- background-color: #14A171;
-}
+.Image{
+  color:  white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250%;
+  margin: 0 auto;
+  position:relative;
+  text-align:center;
+  top: 200px;
+  }

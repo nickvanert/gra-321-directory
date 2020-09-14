@@ -28,7 +28,7 @@ button2:active,
 }
 
 .container {
-  background-image: url(https://github.com/nickvanert/gra-321-directory/blob/master/code-exercises/img/racoon.jpg?raw=true);
+  background-image: url("../img/racoon.jpg");
   background-size: cover;
   height: 700px;
   margin: 0 auto;

@@ -36,7 +36,7 @@ button2:active,
 }
 
 .container1 {
-  background-image: url(.//imagemagazinelayout);
+  background-image: url(https://github.com/nickvanert/gra-321-directory/blob/master/code-exercises/img/magazinelayout.png?raw=true);
   background-size: cover;
   height: 700px;
   margin: 0 auto;
@@ -135,11 +135,11 @@ p
 @media screen and (max-width:1000px) {
 
   body {
-    background-color: #05668d;
+    background-color: #a9a9a9;
   }
 
   @media screen and (max-width:700px) {
 
   body {
-    background-color: #2e856e;
+    background-color: #878787;
   }

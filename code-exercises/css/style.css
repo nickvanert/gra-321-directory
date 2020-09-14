@@ -35,6 +35,15 @@ button2:active,
   width: 50%;
 }
 
+.container1 {
+  background-image: url(.//imagemagazinelayout);
+  background-size: cover;
+  height: 700px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+
 .darkbluetext {
   color: #05668d;
 }

@@ -28,7 +28,7 @@ button2:active,
 }
 
 .container {
-  background-image: url("../img/racoon.jpg");
+  background-image: url(https://github.com/nickvanert/gra-321-directory/blob/master/code-exercises/img/racoon.jpg?raw=true);
   background-size: cover;
   height: 700px;
   margin: 0 auto;
@@ -107,4 +107,30 @@ button2:active,
   position:relative;
   text-align:center;
   top: 200px;
+  }
+body{
+  Background-color: #E4C9B4;
+}
+p
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250%;
+  font weight: 500;
+  position:relative;
+  text-align:center;
+  width: 100;
+  margin: 0 auto;
+  top: 65px;
+
+}
+@media screen and (max-width:1000px) {
+
+  body {
+    background-color: #05668d;
+  }
+
+  @media screen and (max-width:700px) {
+
+  body {
+    background-color: #2e856e;
   }

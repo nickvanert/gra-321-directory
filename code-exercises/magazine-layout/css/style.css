@@ -26,13 +26,17 @@ background-color: #E4C9B4;
 }
 
 .containersubtitle{
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-size: 25px;
   color: #000000;
   line-height: 30pt;
   letter-spacing: 10;
   text-align: left;
   background-color: blue;
+  margin-top: .3755%;
+  margin-left: 11.25%;
+  height:3.8%;
+  width:39.93%;
 
 
 }
@@ -46,6 +50,10 @@ background-color: #E4C9B4;
   letter-spacing: -40;
   text-align: left;
   background-color: green;
+  margin-top: .3755%;
+  margin-left: 11.25%;
+  height:5.793%;
+  width:27.43%;
 }
 
 

@@ -2,7 +2,7 @@
 body {
 background-color: #E4C9B4;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 .containerimage{
   height:78.26%;
   width: 90.55%;
@@ -11,22 +11,22 @@ background-color: #E4C9B4;
   margin-right: 10.4861%;
 }
 .containerTitle{
-  font-family: 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-  font-size: 50px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
   color: #000000;
   letter-spacing: -45;
   text-align: left;
   background-color: red;
-  margin-top: .3755%;
+  margin-top: 3.272532%;
   margin-left: 11.25%;
-  height:2.843%;
-  width:36.18%;
+  height:2.843348%;
+  width:36.180556%;
 
 }
 
 .containersubtitle{
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Source Serif Pro', serif;;
   font-size: 25px;
   color: #000000;
   line-height: 30pt;
@@ -35,51 +35,66 @@ background-color: #E4C9B4;
   background-color: blue;
   margin-top: .3755%;
   margin-left: 11.25%;
-  height:3.8%;
-  width:39.93%;
+  height:3.272532%;
+  width:46.875%;
 
 
 }
 
+.flexbox-container {
+  display: flex;
+}
 
-.containertext1{
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 17px;
-  color: #000000;
-  line-height: 26pt;
-  letter-spacing: -40;
-  text-align: left;
+.flexbox-item {
   background-color: green;
-  margin-top: .3755%;
-  margin-left: 11.25%;
-  height:5.793%;
+  margin-top: .1716%;
+  height:9.6566%;
   width:27.43%;
+
 }
 
 
 
-.containertext2{
-  font-family: 'Helvetica Neue', sans-serif;
+.flexbox-item-1{
+  font-family: 'Arimo', sans-serif;
   font-size: 17px;
   color: #000000;
   line-height: 26pt;
   letter-spacing: -40;
   text-align: left;
+  margin-left: 11.25%;
   background-color: yellow;
+
+
+
 }
 
 
+.flexbox-item-2{
+  font-family: 'Arimo', sans-serif;
+  font-size: 17px;
+  color: #000000;
+  line-height: 26pt;
+  letter-spacing: -40;
+  text-align: left;
+  margin-left: 1.597%;
+  background-color: green;
+  height:2%;
+  width:27.43%;
 
 
+}
 
-.containerpagenumber
-{
-  font-family: 'Helvetica Neue', sans-serif;
+.flexbox-item-3{
+
+  font-family: 'Arimo', sans-serif;
   font-size: 11px;
   color: #000000;
   line-height: 0;
   letter-spacing: -45;
   background-color: orange;
   text-align: left;
+  margin-left: 4.375%;
+  margin-top:13.733906%;
 
 }

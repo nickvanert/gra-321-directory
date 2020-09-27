@@ -1,0 +1,80 @@
+*
+body {
+background-color: #E4C9B4;
+
+}
+.containermain{
+  background-size: 1440px;
+  height: 186px;
+  width: 1440px;
+
+}
+
+.containerTitle{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #000000;
+  line-height: 1;
+  letter-spacing: -45;
+  text-align: left;
+  margin-top: 1429px;
+  margin-left: 161px;
+  background-color: red;
+
+}
+
+.containertext1{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  color: #000000;
+  line-height: 26pt;
+  letter-spacing: -40;
+  text-align: left;
+  margin-left: 161px;
+  background-color: green;
+}
+.containersubtitle{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  color: #000000;
+  line-height: 30pt;
+  letter-spacing: 10;
+  text-align: left;
+  margin-left: 161px;
+  margin-top: 7px;
+  background-color: blue;
+
+
+}
+
+
+
+.containertext2{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  color: #000000;
+  line-height: 26pt;
+  letter-spacing: -40;
+  text-align: left;
+  margin-left: 579px;
+  background-color: yellow;
+}
+
+
+
+
+
+
+.containerpagenumber
+{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 11px;
+  color: #000000;
+  line-height: 0;
+  letter-spacing: -45;
+  background-color: orange;
+  text-align: left;
+
+
+}

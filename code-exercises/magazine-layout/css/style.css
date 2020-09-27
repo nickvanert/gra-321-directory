@@ -1,28 +1,42 @@
 *
 body {
 background-color: #E4C9B4;
-
-}
-.containermain{
-  background-size: 1440px;
-  height: 186px;
-  width: 1440px;
-
 }
 
+.containerimage{
+  height:78.26%;
+  width: 90.55%;
+  margin-top: 92px;
+  margin-left:11.25%;
+  margin-right: 10.4861%;
+}
 .containerTitle{
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 50px;
   color: #000000;
-  line-height: 1;
   letter-spacing: -45;
   text-align: left;
-  margin-top: 1429px;
-  margin-left: 161px;
   background-color: red;
+  margin-top: .3755%;
+  margin-left: 11.25%;
+  height:2.843%;
+  width:36.18%;
 
 }
+
+.containersubtitle{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  color: #000000;
+  line-height: 30pt;
+  letter-spacing: 10;
+  text-align: left;
+  background-color: blue;
+
+
+}
+
 
 .containertext1{
   font-family: 'Helvetica Neue', sans-serif;
@@ -31,21 +45,7 @@ background-color: #E4C9B4;
   line-height: 26pt;
   letter-spacing: -40;
   text-align: left;
-  margin-left: 161px;
   background-color: green;
-}
-.containersubtitle{
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 25px;
-  color: #000000;
-  line-height: 30pt;
-  letter-spacing: 10;
-  text-align: left;
-  margin-left: 161px;
-  margin-top: 7px;
-  background-color: blue;
-
-
 }
 
 
@@ -57,10 +57,8 @@ background-color: #E4C9B4;
   line-height: 26pt;
   letter-spacing: -40;
   text-align: left;
-  margin-left: 579px;
   background-color: yellow;
 }
-
 
 
 
@@ -75,6 +73,5 @@ background-color: #E4C9B4;
   letter-spacing: -45;
   background-color: orange;
   text-align: left;
-
 
 }

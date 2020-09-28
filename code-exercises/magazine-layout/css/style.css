@@ -17,7 +17,6 @@ background-color: white;
   color: #000000;
   letter-spacing: -45;
   text-align: left;
-  background-color: red;
   margin-top: 3.272532%;
   margin-left: 11.25%;
   height:2.843348%;
@@ -32,7 +31,6 @@ background-color: white;
   line-height: 30pt;
   letter-spacing: 10;
   text-align: left;
-  background-color: blue;
   margin-top: .3755%;
   margin-left: 11.25%;
   height:3.272532%;
@@ -46,8 +44,7 @@ background-color: white;
 }
 
 .flexbox-item {
-  background-color: green;
-  margin-top: .1716%;
+  margin-top: .5%;
   height:9.6566%;
   width:27.43%;
 
@@ -64,7 +61,6 @@ background-color: white;
   text-align: left;
   margin-left: 11.25%;
   margin-bottom:5.472103%;
-  background-color: yellow;
 
 
 
@@ -80,7 +76,6 @@ background-color: white;
   text-align: left;
   margin-left: 1.597%;
   margin-bottom:5.472103%;
-  background-color: green;
   height:2%;
   width:27.43%;
 
@@ -92,8 +87,6 @@ background-color: white;
   font-family: 'Arimo', sans-serif;
   font-size: 11px;
   color: #000000;
-  letter-spacing:
-  background-color: orange;
   text-align: left;
   margin-left: 4.86%;
   margin-top:20%;

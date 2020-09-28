@@ -52,7 +52,7 @@ button2:active,
 
 .darkbluetitleimage{
   font-family: 'Montserrat', sans-serif;
-  margin-left:15%;
+  margin-left:20%;
   margin-top: 5%;
   font-size: 300%;
   color: #223745;
@@ -69,8 +69,6 @@ button2:active,
 
 .flexbox-image-1{
 
-  margin-left: 15%;
-  margin-right: 30%;
   margin-top: 5%;
   margin-bottom:10%;
 
@@ -82,8 +80,6 @@ button2:active,
 .flexbox-image-2{
 
   margin-bottom: 20%;
-  margin-left: 15%;
-  margin-right: 20%;
 
 
 

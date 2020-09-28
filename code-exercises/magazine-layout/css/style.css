@@ -1,6 +1,6 @@
 *
 body {
-background-color: #E4C9B4;
+background-color: white;
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 .containerimage{
@@ -63,6 +63,7 @@ background-color: #E4C9B4;
   letter-spacing: -40;
   text-align: left;
   margin-left: 11.25%;
+  margin-bottom:5.472103%;
   background-color: yellow;
 
 
@@ -78,6 +79,7 @@ background-color: #E4C9B4;
   letter-spacing: -40;
   text-align: left;
   margin-left: 1.597%;
+  margin-bottom:5.472103%;
   background-color: green;
   height:2%;
   width:27.43%;
@@ -90,11 +92,10 @@ background-color: #E4C9B4;
   font-family: 'Arimo', sans-serif;
   font-size: 11px;
   color: #000000;
-  line-height: 0;
-  letter-spacing: -45;
+  letter-spacing:
   background-color: orange;
   text-align: left;
-  margin-left: 4.375%;
-  margin-top:13.733906%;
+  margin-left: 4.86%;
+  margin-top:20%;
 
 }

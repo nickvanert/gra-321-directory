@@ -11,9 +11,10 @@ background-color: white;
   margin-right: 10.4861%;
 }
 .containerTitle{
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Helvetica', sans-serif;
+  font-style: Bold;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 46px;
   color: #000000;
   letter-spacing: -45;
   text-align: left;
@@ -25,10 +26,10 @@ background-color: white;
 }
 
 .containersubtitle{
-  font-family: 'Source Serif Pro', serif;;
+  font-family: 'Georgia', serif;;
   font-size: 25px;
   color: #000000;
-  line-height: 30pt;
+  line-height: 25pt;
   letter-spacing: 10;
   text-align: left;
   margin-top: .3755%;
@@ -53,7 +54,7 @@ background-color: white;
 
 
 .flexbox-item-1{
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 17px;
   color: #000000;
   line-height: 26pt;
@@ -68,7 +69,7 @@ background-color: white;
 
 
 .flexbox-item-2{
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 17px;
   color: #000000;
   line-height: 26pt;
@@ -84,7 +85,7 @@ background-color: white;
 
 .flexbox-item-3{
 
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 11px;
   color: #000000;
   text-align: left;

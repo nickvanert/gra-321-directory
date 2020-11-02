@@ -1,7 +1,147 @@
 *
-body {
-background-color: white;
+
+  body {
+    background-image: url(https://images.unsplash.com/photo-1561679660-1b9e82450a1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+  }
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+.header-nav {
+
+  width:90%;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  display:flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+#logo {
+height:100px;
+}
+
+#toggle {
+display:none;
+}
+
+label {
+font-size: 40px;
+line-height:100px;
+ cursor: pointer;
+}
+
+ul.menu-items {
+padding: 20px 0 40px 0;
+margin: 0;
+list-style-type: none;
+text-align: left;
+
+
+}
+
+ul.menu-items a {
+  text-decoration:none;
+  line-height:40px;
+  text-align: left;
+  color: black;
+  display:block;
+}
+
+#toggle:checked ~ ul.menu-items {
+  display:none;
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 500px) {
+  .header-nav {
+  background-color: #EBF9FF;
+  width:90%;
+  margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+  display:inline-block;
+  position: relative;
+  padding: 30px 0 30px 0;
+  width:60%;
+}
+
+#logo {
+height:100px;
+}
+
+#toggle {
+display:none;
+}
+
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display: flex;
+margin: 0;
+list-style-type: none;
+text-align: right;
+border-top:none;
+  width: 60%;
+  justify-content: space-between;
+}
+}
+header{
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 30pt;
+  color:  black;
+}
+  header2{
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 18pt;
+    color:  black;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30pt;
+  color:  black;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: medium;
+  font-size: 22pt;
+  color:  black;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22pt;
+  color:  black;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 18pt;
+  color:  black;
+}
+
 
 .flexbox-container {
     display: flex;

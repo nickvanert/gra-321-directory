@@ -54,10 +54,18 @@ h6 {
 }
 
 h7 {
-font-size: 22px;
+  font-size: 22px;
 
 }
 
+h8 {
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+h9{
+  font-size: 22px;
+}
 #Drinks{
   margin-top: 400px;
   margin-left: 100px;

@@ -1,12 +1,15 @@
 *
-
+/*Banner Image*/
 .banner {
   width: 100%;
   height: 100%;
   background-image: url(https://github.com/nickvanert/gra-321-directory/blob/master/responsive-project/img/banner-2.jpg?raw=true);
   background-position: center center;
   background-size: cover;
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/*About description*/
 #About{
 margin-bottom: 100px;
   margin-top: 100px;
@@ -21,66 +24,77 @@ margin-bottom: 100px;
   margin-left: 100px;
   margin-right: 100px;
   text-align: left;
-  background-color: pink;
-}
 
+}
+/*Panini Title*/
 h2 {
 font-size: 35px;
+font-family: 'Merriweather', sans-serif;
+
 
 
 }
-
+/*Panini description*/
 p1 {
 font-size: 18px;
+font-family: 'Poppins', sans-serif;
 
 
 }
-
+/*Drink Title*/
 h4 {
 font-size: 35px;
 padding-bottom: 40px;
+font-family: 'Merriweather', sans-serif;
 
 
 }
-
+/*Drink Titles*/
 h5 {
 font-size: 22px;
+font-family: 'Poppins', sans-serif;
 
 }
-
+/*Specialty Title*/
 h6 {
   font-size: 35px;
   padding-bottom: 40px;
+  font-family: 'Merriweather', sans-serif;
 
 }
-
+/* Specialty Drink Titles*/
 h7 {
   font-size: 22px;
+  font-family: 'Poppins', sans-serif;
 
 }
 
-.location-title{
-font-size: 35px;
-margin-top:100px;
-margin-left:100px;
-
+#Location{
+  font-size: 35px;
+  margin-top:100px;
+  margin-left:100px;
+  font-family: 'Merriweather', sans-serif;
 
 
 }
 
+/*Design and the Arts Library*/
 h9{
-
   font-size: 22px;
 }
 
+/*Biodesign Institute, Building B*/
 h10 {
-
     font-size: 22px;
+    font-family: 'Poppins', sans-serif;
 
 }
+/*Contact info*/
   .location-details{
     margin-top: 30px;
     margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 
 
   }
@@ -88,9 +102,11 @@ h10 {
   .location-details2{
     margin-left: 100px;
     padding-bottom: 40px;
-    padding-top:30px
+    padding-top:30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
-
+/* Drink info*/
 .flexbox-container {
     display: flex;
     justify-content: left;
@@ -125,17 +141,22 @@ h10 {
   align-self: center;
   order: 1;
 }
+/*line*/
+hr.line {
 
-hr.style6 {
 	background-color: #fff;
 	border-top: 2px dotted #8c8b8b;
+  margin-top: 200px;
+
+
 }
 
 #Drinks{
   margin-top: 200px;
   margin-left: 100px;
   text-align: left;
-  background-color: green;
+
+
 }
 
 #Specialty{
@@ -156,7 +177,7 @@ hr.style6 {
 
 }
 
-/* FontAwesome Icon Centering and Styles */
+/* Social Media  */
 .fa {
   font-size: 30px !important;
   text-decoration: none;
@@ -165,13 +186,13 @@ hr.style6 {
   line-height: 50px !important;
 }
 
-/* Alpha Button Style */
+
 .alpha-container {
   background-color: #492819;
 }
 
 .alpha-container h1 {
-  color: #fff;
+  color: blue;
 }
 
 .alpha-wrapper {
@@ -200,7 +221,7 @@ hr.style6 {
 
 .alpha-icon:after {
   box-shadow: 0 0 0 0px #fff;
-	content: '';
+
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
@@ -208,10 +229,10 @@ hr.style6 {
 	left: 0;
 	position: absolute;
 	margin: 0 auto;
-	transform: scale(0.8);
+	transform: scale(0.7);
 	transition: 0.2s ease;
 }
-
+/*First image slide*/
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -236,7 +257,7 @@ div#slider figure {
   font-size: 0;
   animation: 25s slidy infinite;
 }
-
+/*Second image slide*/
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -261,7 +282,7 @@ div#slider2 figure {
   font-size: 0;
   animation: 25s slidy infinite;
 }
-
+/*Nav Bar*/
 #menu {
   z-index: 2;
 }
@@ -319,6 +340,7 @@ div#slider2 figure {
   top: 0;
   left: 0;
   position: absolute;
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -331,6 +353,7 @@ div#slider2 figure {
   border-radius: 50%;
   transition: 0.3s ease;
   background: white;
+
 
 
 }
@@ -362,7 +385,7 @@ div#slider2 figure {
 }
 
 
-
+/*responsive title*/
 #cafe {
   color: white;
 }
@@ -375,7 +398,7 @@ div#slider2 figure {
   top: 20%;
   font-size: 2.5em;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   }
 
   @media screen and (max-width: 1360px) {
@@ -393,6 +416,6 @@ div#slider2 figure {
 
   .h1 h1 {
     left: 23%;
-    top: 30%%;
+    top: 30%;
     font-size: 1.4em;
   }

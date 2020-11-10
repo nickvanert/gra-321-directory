@@ -366,8 +366,8 @@ div#slider2 figure {
 }
 
 .menu-bg {
-  background: white;
   background: radial-gradient(circle, black, white);
+  background: white;
   border-radius: 50%;
   height: 0;
   margin: 30px 0 20px 20px;

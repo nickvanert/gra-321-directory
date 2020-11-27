@@ -127,6 +127,7 @@ h10 {
     align-items: left;
     display: flex;
     justify-content: left;
+    width:50%;
 
 }
 .flexbox-item {
@@ -192,6 +193,7 @@ hr.line {
   margin: 20px auto;
   padding: 50px;
   width: 100%;
+
 
 }
 
@@ -265,7 +267,7 @@ hr.line {
 
 body { margin: 0; }
 div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
+div#slider figure img { width: 5%; float: left; }
 div#slider figure {
   animation: 25s slidy infinite;
   font-size: 0;

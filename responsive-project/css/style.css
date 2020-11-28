@@ -296,7 +296,7 @@ div#slider figure {
 
 body { margin: 0; }
 div#slider2 { overflow: hidden; }
-div#slider2 figure img { width: 20%; float: left; }
+div#slider2 figure img { width: 5%; float: left; }
 div#slider2 figure {
   animation: 25s slidy infinite;
   font-size: 0;
